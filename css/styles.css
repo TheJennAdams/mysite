@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  color: #5c2003;
+}
+
+h1 {
+  margin: 10px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 8rem;
+  color: #AC4B1C;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #AC4B1C;
+  font-weight: normal;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fab82d;
+}
+
+a {
+  color: #fab82d;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-style: dotted none none none;
+  width: 20%;
+  border-width: 15px;
+  margin: 75px auto;
+  border-color: #FFD57E;
+}
+
+.top-container {
+  background-color: #FFD57E;
+  position: relative;
+  padding-top: 50px;
+  margin-bottom: -50px;
+}
+
+.middle-container {
+  background-color: #fff6c9;
+}
+
+.bottom-container {
+  background-color: #AC4B1C;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.top-cloud {
+  position: absolute;
+  width: 400px;
+  right: 80px;
+  top: 175px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 100px;
+  width: 250px;
+}
+
+.profile-img {
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 75px;
+  border: 5px double #fab82d;
+}
+
+.editing-img {
+  width: 225px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+  border: 3px double #fab82d;
+}
+
+.development-img {
+  width: 225px;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+  border: 3px double #fab82d;
+}
+
+/*
+.pro {
+  text-decoration: underline;
+}
+*/
+.profile-row {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 65%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.button {
+  display: inline-flex;
+  height: 50px;
+  padding: 0;
+  background-image: linear-gradient(210deg, #AC4B1C, #f2a468);
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 75px;
+}
+
+.button:hover {
+  background: #d96025;
+}
+
+.button:active {
+  background: #a14416;
+}
+
+.button__text {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #fff6c9;
+  height: 100%;
+}
+
+.footer-link {
+  margin: 0 25px;
+}
+
+.copyright {
+  color: white;
+}
