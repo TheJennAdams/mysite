@@ -14,8 +14,8 @@ var Player2 = prompt("Enter the name of Player Two");
 
 // Dice Roll
 function clickDiceRoll() {
-  document.querySelector(".img1").setAttribute("src", `images/dice${rollDice()}.png`)
-  document.querySelector(".img2").setAttribute("src", `images/dice${rollDice()}.png`);
+  document.querySelector(".img1").setAttribute("src", `docs/assets/images/diceimages/dice${rollDice()}.png`)
+  document.querySelector(".img2").setAttribute("src", `docs/assets/images/diceimages/dice${rollDice()}.png`);
 }
 
 function rollDice() {
