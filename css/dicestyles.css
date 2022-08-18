@@ -1,0 +1,81 @@
+/* Color Scheme #fab82d #c78804 #5c2003 #AC4B1C #fff6c9 #FFD57E #f2a468 #d96025 #a14416 */
+
+/* Body Styles */
+
+body {
+  background-color: #5c2003;
+  text-align: center;
+}
+
+h1 {
+  margin: 20px;
+  font-family: 'Kaushan Script', cursive;
+  text-shadow: 5px 0 #fff6c9;
+  font-size: 6rem;
+  text-align: center;
+  color: #fab82d;
+}
+
+.column-top {
+  float: left;
+  width: 50%;
+}
+
+.column-bottom {
+  float: left;
+  width: 50%;
+}
+
+/* Player Name styles */
+
+.player-name {
+  background: none;
+  border: none;
+  font-family: 'Merienda', cursive;
+  text-shadow: 2px 0 #fff6c9;
+  color: #fab82d;
+  font-size: 3rem;
+  padding-bottom: 20;
+}
+
+.player-name:hover {
+  color: #fff6c9;
+}
+
+/* Dice Styles */
+
+img {
+  width: 175px;
+}
+
+/* Button-Roll Styles */
+
+.button-roll {
+  background-color: #fab82d;
+  color: #5c2003;
+  font-size: 2rem;
+  border-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  /position: relative;
+  margin-bottom: 5rem;
+}
+
+.button-roll:hover {
+  background-color: #FFD57E;
+  color: #fff6c9;
+}
+
+/* Footer Styles */
+
+footer {
+  color: #fab82d;
+  /* text-align: center; */
+  font-family: 'Open Sans', cursive;
+  width: 75%;
+  margin: auto;
+}
+
+p {
+  text-align: left;
+}
