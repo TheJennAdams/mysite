@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="Jenn Adams" content="html">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Jenn Adams</title>
+    <link rel="stylesheet" href="dicestyles.css">
+
+      <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;900&family=Kaushan+Script&family=Merienda:wght@400;700&family=Open+Sans:wght@300;800&display=swap" rel="stylesheet">
+
+      <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/cb95d10d9f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <h1>Roll the Dice!</h1>
+
+    <!-- Player Names -->
+
+  <div class="row">
+    <div class="column-top">
+      <div type="button" class="player-name one" onclick="changeName1()">Player One</div>
+    </div>
+    <div class="column-top">
+      <div type="button" class="player-name two" onclick="changeName2()">Player Two</div>
+    </div>
+  </div>
+
+    <!-- Dice -->
+
+  <div class="row">
+    <div class="column-bottom">
+      <img src="docs/assets/images/diceimages/dice6.png" alt="image of a D20 die" class="img1">
+    </div>
+    <div class="column-bottom">
+      <img src="docs/assets/images/diceimages/dice6.png" alt="image of a D20 die" class="img2">
+    </div>
+  </div>
+
+    <!-- Roll Button -->
+
+  <button type="button" class="button-roll" onclick="clickDiceRoll()">Click to Roll</button>
+
+      <!-- JavaScript Code -->
+    <script src="rollthedice.js"></script>
+  </body>
+
+  <footer>
+    <p>Hint: Click "Player One" and "Player Two" to enter your own names or nicknames.</p>
+    <p>How to play: Click the button to settle a bet or decide who gets to choose where you're going out to eat tonight. If you both roll the same number, it's a draw and you must roll again until one player wins. May the odds be ever in your favor!</p>
+    <p>Special credit to Angela Yu at The App Brewery</p>
+    <i class="fa-solid fa-dice-d20"></i> www.THEJennAdams.com <i class="fa-solid fa-dice-d20"></i>
+  </footer>
+</html>
