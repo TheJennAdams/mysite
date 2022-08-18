@@ -1,0 +1,114 @@
+/* Color Scheme #fab82d #c78804 #5c2003 #AC4B1C #fff6c9 #FFD57E #f2a468 #d96025 #a14416 */
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Figtree';
+}
+
+/* Navbar Stylesheet */
+.navbar {
+  background-color: #FFD57E;
+  /* padding: 20px 100px; */
+}
+
+.navbar-brand {
+  padding-left: 3rem;
+}
+
+.navbar-item {
+  padding-right: 3rem;
+}
+
+/* Title Stylesheet */
+.title {
+  background-color: #fff6c9;
+}
+
+.heading {
+  width: 85%;
+  margin: auto;
+  padding: 3rem;
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #5c2003;
+}
+
+.subheading {
+  width: 85%;
+  margin: auto;
+  padding: 0 3rem;
+  font-size: 2rem;
+  color: #fab82d;
+}
+
+.title-img {
+  width: 85%;
+  border-radius: 5%;
+  border: 5px solid #5c2003;
+  margin: 3rem;
+}
+
+/* Professional Section */
+
+.professional-img {
+  width: 75%;
+  border-radius: 5%;
+  border: 5px solid #5c2003;
+  margin: 6rem;
+}
+
+.prof-header {
+  width: 85%;
+  margin:  5rem auto;
+  padding: 3rem;
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #fab82d;
+}
+
+.prof-paragraph {
+  width: 85%;
+  margin: auto;
+  padding: 0 3rem;
+  font-size: 2rem;
+  color: #5c2003;
+}
+
+.link-text {
+  color: #fab82d;
+  font-weight: 800;
+}
+
+.link-text:hover {
+  color: #5c2003;
+}
+
+/* Resume Section */
+
+
+/* Portfolio Section */
+
+
+/* Personal Section */
+
+.personal-box {
+  text-align: center;
+  color: #fab82d;
+}
+
+.personal-row {
+  padding: 4%;
+}
+
+.fa-solid {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.fa-solid:hover {
+  color: #c78804;
+}
+
+p {
+  color: #5c2003;
+  margin: 2rem;
+}
